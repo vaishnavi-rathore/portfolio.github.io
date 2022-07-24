@@ -19,9 +19,169 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap" rel="stylesheet"/>
 
-	<title>Document</title>
-</head>
-<body>
-	|
-</body>
+	<title>Portfolio</title>
+  </head>
+  <body>
+    <div class="container navigation pt-3">
+      <div class="row">
+        <div class="col-6 d-flex justify-content-start align-items-center">
+          <i class="fas fa-code fa-2x text-warning pb-3"></i>
+          <h5 class="d-inline pl-2 text-white">Portfolio</h5>
+        </div>
+        <div class="col-6 pt-2">
+          <div
+            class="row text-center p-0 d-flex justify-content-end align-items-center"
+          >
+            <div class="col-3">
+              <a href="#about" class="text-white navigation-link">About</a>
+            </div>
+            <div class="col-3">
+              <a href="#projects" class="text-white navigation-link">Projects</a>
+            </div>
+            <div class="col-3">
+            <a href="#social-media" class="text-white navigation-link">Social Media</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="main-container container">
+      <div class="row main_row">
+        <div class="col-6">
+          <h2 class="text-white">Hello, I'm</h2>
+          <h1 class="text-warning m-heading">Vaishnavi Rathore</h1>
+          <h2 class="text-white">Student</h2>
+        </div>
+        <div class="col-6 ">
+          <img
+            src="images\istockphoto-1166400008-170667a.jpg"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="container about p-5">
+      <div class="row">
+        <div class="col-6">
+          <img src="./images/about_img.svg" class="img-fluid" />
+        </div>
+        <div class="col-6 pl-5 pt-5 pb-5 text-white">
+          <h3 class="text-warning">About Me</h3>
+          <h1 class="m-heading">A little bit about me</h1>
+          <p>
+            I'm B.E student at Chandigarh University. I like to learn new things related to technology. I wanted to be a full-stack developer.
+            <b class="text-warning">Web-Developement</b> has really encouraged me to learn more and more about it and hoe front-end as well as back-end works.
+          </p>
+          <br />
+          <p>
+           I'm really passionate about my future goals and want to work with the big MNCs to gain more knowledge and experiences for the future.
+           I have good command over <b class="text-warning">C++, HTML, Bootstrap4, C </b>and<b class="text-warning"> CSS </b>.
+           </p>
+          <button class="btn btn-outline-warning">Learn More</button>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects" class="container mt-5 pt-5">
+      <h1 class="text-warning mb-3 pb-2">My Projects</h1>
+      <div class="row">
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/messaging.svg"
+              class="card-img-top"
+              style="height: 13rem;"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">My own Virtual Assistant</h5>
+              <p class="card-text">
+                This AI based assistant was built for our personal technical uses that the AI assistants like google-assistant,cortana, apple siri can't perform.
+              </p>
+              <a href="#" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="images\360_F_298529809_zpq8c7yACN50Hk5EV809shM0aHoNbTbR.jpg"
+              class="card-img-top img-fluid"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Office Management System</h5>
+              <p class="card-text">
+               It was a C++ base project built for the offices where user can input details of the employees and retrieve their informations and also feed new information.
+              </p>
+              <a href="#" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/e_commerce_platform.svg"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">E-Commerce Platform</h5>
+              <p class="card-text">
+                This project goal was to built a website for the product based startup companies where the suppliers can sell their new and innovative products globally. 
+              </p>
+              <a href="#" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/music.svg"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Social Media Section -->
+    <div id="social-media" class="container-fluid">
+      <div class="container text-white py-5">
+        <h4 class="text-warning">Social Media</h4>
+        <h1 class="m-heading">Contact me</h1>
+        <div class="col-12 col-sm-4 align-self-center">
+          <div class="text-center">
+            <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
+            <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
+            <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+            
+            <a class="btn btn-social-icon" href="mailto:vaishnavi.rathore@gmail.com"><i class="fa fa-envelope-o"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    
+      <div class="container text-muted text-center py-3 mt-5">
+        <h5>
+          Copyright &copy; 2022 |
+          <a class="text-warning text-decoration-none" href="#about"
+            >Vaishnavi Rathore</a
+          >
+        </h5>
+      </div>
+    </footer>
+  </body>
 </html>
+>
